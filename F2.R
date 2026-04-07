@@ -1,4 +1,3 @@
-setwd('E:\\Fudan Lab\\Lab-Feng-Zhang Alin\\immune aging\\投稿')
 
 library(ggplot2)
 library(openxlsx)
@@ -10,12 +9,6 @@ library(ggpubr)
 library(ggbreak)
 library(gground)
 library(ggprism)
-
-install.packages('ggprism')
-if (!require("devtools", quietly = TRUE))
-  install.packages("devtools")
-
-devtools::install_github("dxsbiocc/gground")
 
 ##### F2A #####
 data = read.csv('github data\\Figure2A data.csv',check.names = F)
